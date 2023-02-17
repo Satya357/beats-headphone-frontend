@@ -1,0 +1,403 @@
+*{
+	box-sizing: border-box;
+	margin : 0;
+	padding : 0;
+}
+
+body{
+	background-color: rgba(0,0,0,0.94);
+	margin : 0 15vw;
+	font-family: "Poppins", sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding : 30px;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+}
+
+ul{
+	display: flex;
+	gap : 30px;
+	list-style-type: none;
+	font-size: 1rem;
+	color : white;
+}
+
+.beatslogo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width : 50px;
+}
+
+img[alt="beatsLogo"]{
+	width : 50%;
+}
+
+.btn--shop{
+	padding : 12px 35px;
+	border-radius: 10px;
+	margin-left: 50px;
+	color : white;
+	background-color: rgba(256,256,256,0.09);
+	font-size: 1rem;
+	font-weight: 100;
+}
+
+main{
+	color : white;
+	display: flex;
+	gap : 100px;
+}
+
+.hero-right{
+	width : 50%;
+}
+
+img[alt="hero-left"]{
+	width : 80%;
+	position : relative;
+	top : -250px;
+	left : 80px;
+}
+
+.on-ear{
+	text-align: center;
+	padding : 20px;
+}
+
+img[alt="on-ear"]{
+	width : 60%;
+}
+
+.beats-3{
+	font-size: 2.5rem;
+}
+
+.overview{
+	font-weight: 700;
+	margin : 30px 0;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
+.description{
+	color : rgb(256 , 256 , 256 , 0.8)
+}
+
+.btn--cart{
+	padding : 10px 20px;
+	background-color: rgba(256,256,256,0.09);
+	color : white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap : 20px;
+	border-radius: 10px;
+	margin-top : 35px;
+	font-weight: 600;
+}
+
+.social-media-links{
+	display: flex;
+	justify-content: space-around;
+}
+
+.social-media-links img{
+	object-fit: contain;
+	object-position: center;
+}
+
+.product-description{
+	font-weight: lighter;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap : 150px;
+	color : white;
+}
+
+.product--specs{
+	margin : 100px 0 80px;
+	text-align: center;
+}
+
+.product--specs img{
+	width : 20%;
+}
+
+.feature-1{
+	margin : 20px 0 20px 40px;
+}
+
+.feature-2{
+	margin : 20px 0 20px 0;
+}
+
+.feature-3{
+	margin : 20px 0 20px 0;
+}
+
+.feature-4{
+	margin : 20px 0 20px 40px;
+}
+
+.product--image{
+	width : 25%;
+}
+
+.product--image img{
+	width : 100%;
+}
+
+.product--detail img{
+	width : 15px;
+}
+
+.case{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin : 100px;
+}
+
+.case-detail{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color : rgba(256,256,256,5);
+	gap : 60px;
+}
+
+.case-image-wrapper{
+	width : 25%;
+}
+
+.case-image-wrapper img{
+	width : 100%;
+}
+
+.case-description{
+	width : 250px;
+	font-size: 0.9rem;
+	font-weight: 200;
+}
+
+.case-description button{
+	margin-top : 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap : 15px;
+	padding : 7px 15px;
+	color : white;
+	background-color: rgba(256,256,256,0.15);
+	border-radius : 10px;
+	cursor : pointer;
+}
+
+.case-logo-wrapper{
+	width : 170px;
+	margin-bottom : 60px;
+}
+
+.case-logo-wrapper img{
+	width : 100%;
+}
+
+.trend-offer{
+	margin-bottom: 100px;
+	color : white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap : 100px;
+	padding : 50px;
+	background-color: rgba(256,256,256,0.04);
+	border-radius : 30px;
+}
+
+.trend-offer-details{
+	width : 250px;
+	font-size: 0.9rem;
+	padding : 10px;
+}
+
+.trend-offer-details p{
+	color : rgba(256,256,256,0.75);
+	margin : 10px 0;
+}
+
+.trend-offer-details button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap : 15px;
+	padding : 10px 15px;
+	font-weight: 200;
+	border-radius : 15px;
+	background-color: rgba(256,256,256,0.15);
+	color : rgba(256,256,256,1)
+}
+
+.products-collection-wrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap : 100px;
+}
+
+.products-collection-logo{
+	width : 300px;
+}
+
+.products-collection-logo img{
+	width : 100%;
+}
+
+.products-collection{
+	width : 80%;
+	gap : 70px;
+	margin-bottom : 100px;
+	display: flex;
+	flex-wrap: wrap;
+	color : white;
+	justify-content: space-between;
+}
+
+.product-wrapper{
+	background-color : rgba(256,256,256,0.1);
+	border-radius : 10px;
+	color : white;
+	width : 150px;
+	height : 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.product-details{
+	font-weight: 300;
+	padding : 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product-details p:first-child{
+	color : rgba(256,256,256,0.9);
+}
+
+.product-details p:last-child{
+	color : rgba(256,256,256,0.7);
+}
+
+.product-image{
+	width : 100px;
+	margin : 0 auto;
+	position: relative;
+}
+
+.cart-bag{
+	padding : 5px;
+	border-radius: 10px;
+	font-weight: 200;
+	background-color: rgba(0,0,0,0.94);
+}
+
+.product-image img{
+	width : 100%;
+	position : absolute;
+	bottom : -70px;
+}
+
+.footer{
+	color : white;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 100px;
+}
+
+.footer-products{
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+}
+
+.support{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-products a{
+	cursor: pointer;
+}
+
+.category-heading , .support-heading{
+	font-weight: 400;
+	margin-bottom : 10px;
+	padding-left : 4px;
+	cursor: context-menu;
+}
+
+.category , .support-category{
+	color : rgba(256,256,256,0.7);
+	font-size: 0.9rem;
+	margin : 4px;
+}
+
+.email-wrapper{
+	background-color: rgba(256,256,256,0.09);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding : 6px 13px;
+	border-radius: 10px;
+}
+
+.email-wrapper input{
+		color : white;
+		font-weight: 300;
+		outline: none;
+		border: none;
+		background-color: transparent;
+		font: inherit	  
+}
+
+.email-wrapper button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap : 10px;
+	padding : 10px;
+	background-color: rgba(0,0,0,1);
+	color : rgba(256,256,256,1);
+	border-radius: 10px;
+}
+
+.social-links{
+	margin-top : 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap : 15px;
+}
+
+.social-links a{
+	cursor: pointer;
+}
+
+.more button{
+	cursor: pointer;
+	background-color: transparent;
+}
